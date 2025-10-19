@@ -1,0 +1,27 @@
+'''
+1. high energy astrophysics (relating to neutron stars, black holes,
+supernovae, etc.); binary systems, solar system asteroids and their orbits,
+dark matter, stellar and galatic formation and evolution. 
+
+2. 
+- https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/: NASA Small-Body Database
+Lookup; provides access to data related to specific astroids/comets such as orbital elements, orbit diagrams, physical parameters, etc. 
+- https://heasarc.gsfc.nasa.gov/w3browse/all/saisncat.html: Sternberg AStronomical Institute Catalogue of 
+Supernovae, provides RA, Dec, mag, angle, inclination, rad velocity, etc
+- https://www.tng-project.org/: IllustrisTNG Project: galactic formation simulations
+
+3. I could use requests or astropy to fetch data from a public archive, and use numpy and matplotlib
+to read the fits file data and plot the light curve
+Can also use loops and conditionals to find peaks and duration for the light curve. 
+
+4. 
+Simple project: take observed data of orbital velocity vs. distance from center of a galaxy and plot it 
+against expected Keplerian decline to demonstrate any "missing mass" that potentially implies 
+dark matter. Will load a provided CSV of radius and velocity measurements into an array, 
+use for loop to calculate expected Keplerian velocity curve, and use matplotlib to create a clear plot
+Ambitious project: build an interactive tool that models simple stellar evolution, by inputting star initial
+mass and metallicity and output an estimated lifespan, final fate, dominate elements produced 
+(perhaps graph of % of these elements?). Main challenging part would be to create an web interface
+
+
+
